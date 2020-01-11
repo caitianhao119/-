@@ -1,0 +1,30 @@
+﻿生成启动时间为 2020/1/9 9:49:53。
+     1>项目“D:\VSprojects\tranSERVER\tranSERVER\tranSERVER.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.6\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp
+         server.cpp
+     1>d:\vsprojects\transerver\transerver\server.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(152): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(265): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(273): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(297): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\stdlib.h(854) : 参见“_splitpath”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(298): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(299): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\vsprojects\transerver\transerver\server.cpp(313): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VSprojects\tranSERVER\Debug\tranSERVER.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.6\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VSprojects\tranSERVER\Debug\tranSERVER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VSprojects\tranSERVER\Debug\tranSERVER.lib" /MACHINE:X86 Debug\sorce.obj
+         Debug\server.obj
+         tranSERVER.vcxproj -> D:\VSprojects\tranSERVER\Debug\tranSERVER.exe
+     1>已完成生成项目“D:\VSprojects\tranSERVER\tranSERVER\tranSERVER.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.60

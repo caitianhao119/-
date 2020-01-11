@@ -1,0 +1,15 @@
+﻿  MainMenu.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xutility(2732): warning C4996: 'std::copy_backward::_Unchecked_iterators::_Deprecate': Call to 'std::copy_backward' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xutility(2732): note: 参见“std::copy_backward::_Unchecked_iterators::_Deprecate”的声明
+  d:\shixi\shili\qtguiapplication2\qtguiapplication2\qcustomplot.h(3200): note: 参见对正在编译的函数 模板 实例化“_BidIt2 *std::copy_backward<QCPFinancialData*,QCPFinancialData*>(_BidIt1,_BidIt1,_BidIt2)”的引用
+          with
+          [
+              _BidIt2=QCPFinancialData *,
+              _BidIt1=QCPFinancialData *
+          ]
+  d:\shixi\shili\qtguiapplication2\qtguiapplication2\qcustomplot.h(3190): note: 编译 类 模板 成员函数 "void QCPDataContainer<QCPFinancialData>::preallocateGrow(int)" 时
+  d:\shixi\shili\qtguiapplication2\qtguiapplication2\qcustomplot.h(2749): note: 参见对正在编译的函数 模板 实例化“void QCPDataContainer<QCPFinancialData>::preallocateGrow(int)”的引用
+  d:\shixi\shili\qtguiapplication2\qtguiapplication2\qcustomplot.h(2607): note: 编译 类 模板 成员函数 "QCPDataContainer<QCPFinancialData>::QCPDataContainer(void)" 时
+  d:\shixi\shili\qtguiapplication2\qtguiapplication2\qtguiapplication2.h(89): note: 参见对正在编译的函数 模板 实例化“QCPDataContainer<QCPFinancialData>::QCPDataContainer(void)”的引用
+  d:\shixi\shili\qtguiapplication2\qtguiapplication2\qcustomplot.h(5947): note: 参见对正在编译的 类 模板 实例化 "QCPDataContainer<QCPFinancialData>" 的引用
+  QtGuiApplication2.vcxproj -> D:\shixi\shili\QtGuiApplication2\Win32\Debug\QtGuiApplication2.exe
